@@ -1,0 +1,24 @@
+.newCollection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+.newCollection h1{
+    color: #171717;
+    font-size: 3rem ;
+    font-weight: 600;
+}
+.newCollection hr{
+    width: 15rem;
+    height: .5rem;
+    border-radius: .5rem;
+    background: #252525;
+}
+.collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5rem;
+    gap: 3rem;
+}
